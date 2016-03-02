@@ -1,2 +1,2 @@
 # CentOS-7
-CentOS-7 Tweeks
+CentOS 7 Related Topics

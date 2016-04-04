@@ -61,15 +61,15 @@ Unpacking JAR files... <br>
 [root@metalgear ~]# ` update-alternatives --config java ` <br>
 
 ```
-There are 3 programs which provide 'java'. <br><br>
+There are 3 programs which provide 'java'.
 
-Selection      Command <br>
------------------------------------------------ <br>
-*+ 1           /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/jre/bin/java <br>
-   2           /usr/java/jdk1.8.0_74/jre/bin/java <br>
-   3           /usr/java/jre1.8.0_74/bin/java <br>
- <br>
-Enter to keep the current selection[+], or type selection number: **_3_** <br>
+Selection      Command
+-----------------------------------------------
+*+ 1           /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/jre/bin/java
+   2           /usr/java/jdk1.8.0_74/jre/bin/java
+   3           /usr/java/jre1.8.0_74/bin/java
+
+Enter to keep the current selection[+], or type selection number: 
 ```
 
 #### Select 3 to point Java (JRE) to Oracle JRE 1.8 update 74

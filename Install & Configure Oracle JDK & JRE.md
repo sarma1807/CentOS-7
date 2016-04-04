@@ -64,10 +64,10 @@ Unpacking JAR files... <br>
 There are 3 programs which provide 'java'.
 
 Selection      Command
------------------------------------------------
-*+ 1           /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/jre/bin/java
-   2           /usr/java/jdk1.8.0_74/jre/bin/java
-   3           /usr/java/jre1.8.0_74/bin/java
+--------------------------------------------------------------------------------------------------------------------
+*+ 1           /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/jre/bin/java     (OpenJDK JRE)
+   2           /usr/java/jdk1.8.0_74/jre/bin/java                                           (JRE part of Oracle JDK)
+   3           /usr/java/jre1.8.0_74/bin/java                                               (Oracle JRE)
 
 Enter to keep the current selection[+], or type selection number: 
 ```

@@ -84,8 +84,8 @@ Enter to keep the current selection[+], or type selection number: 3
 There is 1 program that provides 'javac'.
 
   Selection    Command
------------------------------------------------
-*+ 1           /usr/java/jdk1.8.0_74/bin/javac
+-----------------------------------------------------------------
+*+ 1           /usr/java/jdk1.8.0_74/bin/javac     (Oracle JDK)
 
 Enter to keep the current selection[+], or type selection number: 1
 ```

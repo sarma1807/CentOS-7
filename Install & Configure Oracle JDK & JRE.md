@@ -25,7 +25,7 @@ Similar command is: 'java' <br>
 
 ---
 
-#### Install Oracle JDK & JRE
+#### Install Oracle JDK & JRE 1.8 update 74
 
 [root@metalgear ~]# ` rpm -ivf jdk-8u74-linux-x64.rpm ` <br>
 Preparing packages... <br>
@@ -54,9 +54,14 @@ Unpacking JAR files... <br>
 	localedata.jar... <br>
 	jfxrt.jar... <br> <br>
 
-[root@metalgear ~]# update-alternatives --config java
+---
 
-There are 3 programs which provide 'java'.
+#### Update Alternatives to Point Java and JavaC to Oracle JDK & JRE 1.8 update 74
+
+[root@metalgear ~]# ` update-alternatives --config java ` <br>
+
+`
+There are 3 programs which provide 'java'. <br>
 
   Selection    Command
 -----------------------------------------------
@@ -65,6 +70,10 @@ There are 3 programs which provide 'java'.
    3           /usr/java/jre1.8.0_74/bin/java
 
 Enter to keep the current selection[+], or type selection number: 3
+`
+#### Select 3 to point Java (JRE) to Oracle JRE 1.8 update 74
+
+---
 
 [root@metalgear ~]# update-alternatives --config java
 

@@ -56,7 +56,7 @@ Unpacking JAR files... <br>
 
 ---
 
-#### Update Alternatives to Point Java and JavaC to Oracle JDK & JRE 1.8 update 74
+#### Update Alternatives to Point Java (JRE) to Oracle JRE 1.8 update 74
 
 [root@metalgear ~]# ` update-alternatives --config java ` <br>
 
@@ -69,27 +69,18 @@ Selection      Command
    2           /usr/java/jdk1.8.0_74/jre/bin/java                                           (JRE part of Oracle JDK)  
    3           /usr/java/jre1.8.0_74/bin/java                                               (Oracle JRE)
 
-Enter to keep the current selection[+], or type selection number: 
+Enter to keep the current selection[+], or type selection number: 3
 ```
 
-#### Select 3 to point Java (JRE) to Oracle JRE 1.8 update 74
+#### Select "3" to point Java (JRE) to Oracle JRE 1.8 update 74
 
 ---
 
-[root@metalgear ~]# update-alternatives --config java
+#### Update Alternatives to Point Java Compiler (JDK) to Oracle JDK 1.8 update 74
 
-There are 3 programs which provide 'java'.
+[root@metalgear ~]# ` update-alternatives --config javac `
 
-  Selection    Command
------------------------------------------------
-*  1           /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/jre/bin/java
-   2           /usr/java/jdk1.8.0_74/jre/bin/java
- + 3           /usr/java/jre1.8.0_74/bin/java
-
-Enter to keep the current selection[+], or type selection number: 3
-
-[root@metalgear ~]# update-alternatives --config javac
-
+```
 There is 1 program that provides 'javac'.
 
   Selection    Command
@@ -97,22 +88,23 @@ There is 1 program that provides 'javac'.
 *+ 1           /usr/java/jdk1.8.0_74/bin/javac
 
 Enter to keep the current selection[+], or type selection number: 1
+```
 
-[root@metalgear ~]# update-alternatives --config javac
+#### Select "1" to point Java Compiler (JDK) to Oracle JDK 1.8 update 74
 
-There is 1 program that provides 'javac'.
+---
 
-  Selection    Command
------------------------------------------------
-*+ 1           /usr/java/jdk1.8.0_74/bin/javac
-
-Enter to keep the current selection[+], or type selection number: 1
-
-[root@metalgear ~]# java -version
+[root@metalgear ~]# ` java -version `
+```
 java version "1.8.0_74"
 Java(TM) SE Runtime Environment (build 1.8.0_74-b02)
 Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
+```
 
-[root@metalgear ~]# javac -version
+
+[root@metalgear ~]# ` javac -version `
+```
 javac 1.8.0_74
+```
 
+---

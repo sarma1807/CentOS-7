@@ -28,6 +28,7 @@ Similar command is: 'java' <br>
 #### Install Oracle JDK & JRE 1.8 update 74
 
 [root@metalgear ~]# ` rpm -ivf jdk-8u74-linux-x64.rpm ` <br>
+```
 Preparing packages... <br>
 jdk1.8.0_74-2000:1.8.0_74-fcs.x86_64 <br>
 Unpacking JAR files... <br>
@@ -40,8 +41,10 @@ Unpacking JAR files... <br>
 	charsets.jar... <br>
 	localedata.jar... <br>
 	jfxrt.jar... <br><br>
+```
 
 [root@metalgear ~]# ` rpm -ivf jre-8u74-linux-x64.rpm ` <br>
+```
 Preparing packages... <br>
 jre1.8.0_74-1.8.0_74-fcs.x86_64 <br>
 Unpacking JAR files... <br>
@@ -53,6 +56,7 @@ Unpacking JAR files... <br>
 	charsets.jar... <br>
 	localedata.jar... <br>
 	jfxrt.jar... <br> <br>
+```
 
 ---
 

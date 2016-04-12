@@ -44,7 +44,9 @@ Using `cfdisk` command on CentOS, we can check all available partitions on the h
 
 ---
 
-add following entry at the end of : `/etc/grub.d/40_custom` : identify partitions using `(hd0,1) = (/dev/sda,sda1)` :
+##### boot menu entry
+
+add following entry at the end of these files : `/etc/grub.d/40_custom` & `/boot/grub2/grub.cfg` : identify partitions using `(hd0,1) = (/dev/sda,sda1)` :
 
 ```
 menuentry "Microsoft Windows 7"{
@@ -54,3 +56,12 @@ menuentry "Microsoft Windows 7"{
 ```
 
 ---
+
+##### boot menu timeout setting
+
+Timeout for OS selector in the boot menu can be modified by changing following parameter in file `/boot/grub2/grub.cfg` :
+
+set timeout=10
+
+---
+

@@ -65,3 +65,12 @@ Timeout for OS selector in the boot menu can be modified by changing following p
 
 ---
 
+##### rebuild boot loader
+
+rebuild the boot loader using following command :
+
+`grub2-mkconfig -o /boot/grub2/grub.cfg`
+
+##### I have noticed that we have to rebuilt boot loader after every system update.
+
+---

@@ -8,7 +8,9 @@ I installed CentOS 7 on the empty partition. Windows partition was safe and unto
 
 ---
 
-##### Using `cfdisk` command on CentOS, we can check all available partitions on the hard drive and identify all Windows Partitions (ntfs).
+##### cfdisk
+
+Using `cfdisk` command on CentOS, we can check all available partitions on the hard drive and identify all Windows Partitions (ntfs).
 
 ```
 ----------------------------------------------------------------------------------
@@ -28,14 +30,17 @@ I installed CentOS 7 on the empty partition. Windows partition was safe and unto
                             Logical   Free Space                           0.36*
 
 
-
-
-
-
      [   Help   ]  [  Print   ]  [   Quit   ]  [  Units   ]  [  Write   ]
-
 
                                Print help screen
 ----------------------------------------------------------------------------------
 ```
+
+##### boot partitions
+
+`sda1` is Windows boot partition
+
+`sda3` is CentOS Linux boot partition (/boot)
+
+---
 

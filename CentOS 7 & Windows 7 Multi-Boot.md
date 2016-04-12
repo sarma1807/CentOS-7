@@ -44,3 +44,13 @@ Using `cfdisk` command on CentOS, we can check all available partitions on the h
 
 ---
 
+add following entry at the end of : `/etc/grub.d/40_custom` : identify partitions using `(hd0,1) = (/dev/sda,sda1)`
+
+```
+menuentry "Microsoft Windows 7"{
+  set root='(hd0,1)'
+  chainloader +1
+}
+```
+
+---

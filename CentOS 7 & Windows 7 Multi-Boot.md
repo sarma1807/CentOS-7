@@ -61,7 +61,7 @@ menuentry "Microsoft Windows 7"{
 
 Timeout for OS selector in the boot menu can be modified by changing following parameter in file `/boot/grub2/grub.cfg` :
 
-set timeout=10
+`set timeout=10`
 
 ---
 
